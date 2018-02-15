@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 namespace LuisFormFlow.Dialogs
 {
     [Serializable]
+    //Suas chaves 
     [LuisModel("", "")]
     public class LuisForm : LuisDialog<Pedido>
     {
